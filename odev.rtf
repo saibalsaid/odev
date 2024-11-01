@@ -1,0 +1,445 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset238 Calibri;}{\f2\fnil\fcharset162 Calibri;}}
+{\colortbl ;\red102\green102\blue102;\red0\green77\blue187;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\tx1440\tx2880\f0\fs22\lang9\par
+
+\pard\sa200\sl276\slmult1\fs40       NESNEYE Y\lang1033\'d6\lang9 NEL\f1\lang1055\u304?\f0\lang9 K PROGRAMLAMA DERS\f1\lang1055\u304?\f0\fs22\lang9\par
+\fs40                           1.HAFTANIN ODEV\f1\lang1055\u304?\par
+\f0\lang1033                            TAR\f1\lang1055\u304?\f2 H\f0\lang1033 :01.11.2024\lang9\par
+\fs28                 AD : SA\f1\lang1055\u304?\f0\lang9 B  ,   SOYAD: ALSAE\f1\lang1055\u304?\f0\lang9 D ,  \lang1033\'d6\f1\lang1055\u286?\f0\lang1033 .\lang9 NO:241041121\par
+\fs22 HAFTA -1 : De\f1\u287?i\'baken kullan\u305?m\u305? ve De\u287?er Okuma - Yazma \u304?\'balemleri (6 Uygulama)\par
+\f0\fs28\lang1033 1.\cf1\f1\fs22\u304?ki say\u305?n\u305?n fark\u305?n\u305? bulan c# kodu\f0  bulunuz.\f1\lang9\par
+\cf2\f0 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("\f1\u304?lk say\u305?y\u305? girin: ");\par
+        int sayi1 = Convert.ToInt32(Console.ReadLine());\par
+        Console.Write("\u304?kinci say\u305?y\u305? girin: ");\par
+        int sayi2 = Convert.ToInt32(Console.ReadLine());\par
+        int fark = sayi1 - sayi2;\par
+        Console.WriteLine("\u304?ki say\u305?n\u305?n fark\u305?: " + fark);\par
+    \}\par
+\}\f0\fs28\par
+\cf0 2.\cf1\fs22 5 say\f1\u305?s\u305?n\u305?n karesini bulan c# kodu \f0\lang1033 bulunuz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        int sayi = 5;\par
+        int kare = sayi * sayi;\par
+        Console.WriteLine("5 say\f1\u305?s\u305?n\u305?n karesi: " + kare);\par
+    \}\par
+\}\par
+\cf0\f0\fs28\lang9 3.\cf1\fs22 10 say\f1\u305?s\u305?n\u305?n 3 ' e b\f0\'f6l\'fcm\'fcnden kalan\f1\u305?n\u305? bulan  c# kodu \f0\lang1033 bulunuz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        int sayi = 10;\par
+        int kalan = sayi % 3;\par
+        Console.WriteLine("10 say\f1\u305?s\u305?n\u305?n 3'e b\f0\'f6l\'fcm\'fcnden kalan: " + kalan);\par
+    \}\par
+\}\par
+\cf0\fs28\lang9 4.\cf1\fs22 Klavyeden girilen 4 say\f1\u305?n\u305?n toplam\u305?n\u305? ve \f0\'e7arp\f1\u305?m\u305?n\u305? bulan c# kodu \f0\lang1033 bulunuz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("1. say\f1\u305?y\u305? girin: ");\par
+        int sayi1 = Convert.ToInt32(Console.ReadLine());\par
+        Console.Write("2. say\u305?y\u305? girin: ");\par
+        int sayi2 = Convert.ToInt32(Console.ReadLine());\par
+        Console.Write("3. say\u305?y\u305? girin: ");\par
+        int sayi3 = Convert.ToInt32(Console.ReadLine());\par
+        Console.Write("4. say\u305?y\u305? girin: ");\par
+        int sayi4 = Convert.ToInt32(Console.ReadLine());\par
+        int toplam = sayi1 + sayi2 + sayi3 + sayi4;\par
+        int carpim = sayi1 * sayi2 * sayi3 * sayi4;\par
+        Console.WriteLine("D\f0\'f6rt say\f1\u305?n\u305?n toplam\u305?: " + toplam);\par
+        Console.WriteLine("D\f0\'f6rt say\f1\u305?n\u305?n \f0\'e7arp\f1\u305?m\u305?: " + carpim);\par
+    \}\par
+\}\par
+\cf0\f0\fs28\lang9 5.\cf1\fs22 Klavyeden girilen 2 say\f1\u305?n\u305?n b\f0\'f6l\'fcm\'fcn\'fc bulan c# kodu bulunuz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Birinci say\f1\u305?y\u305? girin: ");\par
+        double sayi1 = Convert.ToDouble(Console.ReadLine());\par
+        Console.Write("\u304?kinci say\u305?y\u305? girin: ");\par
+        double sayi2 = Convert.ToDouble(Console.ReadLine());\par
+        if (sayi2 != 0)\par
+        \{\par
+            double bolum = sayi1 / sayi2;\par
+            Console.WriteLine("\u304?ki say\u305?n\u305?n b\f0\'f6l\'fcm\'fc: " + bolum);\par
+        \}\par
+        else\par
+        \{\par
+            Console.WriteLine("Bir say\f1\u305? 0'a b\f0\'f6l\'fcnemez!");\par
+        \}\par
+    \}\par
+\}\par
+\cf0\fs28 6.\cf1\fs22 Klavyeden kenarlar\f1\u305? girilen dikd\f0\'f6rtgenler prizmas\f1\u305?n\u305?n hacmini hesaplayan   c# kodu \f0\lang1033 bulunuz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Dikd\'f6rtgenler prizmas\f1\u305?n\u305?n uzunlu\u287?unu girin: ");\par
+        double uzunluk = Convert.ToDouble(Console.ReadLine());\par
+        Console.Write("Dikd\f0\'f6rtgenler prizmas\f1\u305?n\u305?n geni\'bali\u287?ini girin: ");\par
+        double genislik = Convert.ToDouble(Console.ReadLine());\par
+        Console.Write("Dikd\f0\'f6rtgenler prizmas\f1\u305?n\u305?n y\f0\'fcksekli\f1\u287?ini girin: ");\par
+        double yukseklik = Convert.ToDouble(Console.ReadLine());\par
+        double hacim = uzunluk * genislik * yukseklik;\par
+        Console.WriteLine("Dikd\f0\'f6rtgenler prizmas\f1\u305?n\u305?n hacmi: " + hacim);\par
+    \}\par
+\}\par
+\cf0\f0\fs40\lang9 NESNEYE Y\lang1033\'d6\lang9 NEL\f1\lang1055\u304?\f0\lang9 K PROGRAMLAMA DERS\f1\lang1055\u304?\f0\fs22\lang9\par
+\fs40                           2.HAFTANIN ODEV\f1\lang1055\u304?\par
+\f0\lang1033                            TAR\f1\lang1055\u304?\f2 H\f0\lang1033 :01.11.2024\lang9\par
+\fs28                 AD : SA\f1\lang1055\u304?\f0\lang9 B  ,   SOYAD: ALSAE\f1\lang1055\u304?\f0\lang9 D ,  \lang1033\'d6\f1\lang1055\u286?\f0\lang1033 .\lang9 NO:241041121\par
+\fs32 1.\cf1\fs22 Girilen say\f1\u305?n\u305?n \f0\'e7ift - tek kontrol\'fc (if): \par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Bir say\f1\u305? girin: ");\par
+        int sayi = Convert.ToInt32(Console.ReadLine());\par
+        if (sayi % 2 == 0)\par
+        \{\par
+            Console.WriteLine("Girdi\u287?iniz say\u305? \f0\'e7ifttir.");\par
+        \}\par
+        else\par
+        \{\par
+            Console.WriteLine("Girdi\f1\u287?iniz say\u305? tektir.");\par
+        \}\par
+    \}\par
+\}\par
+\cf0\f0\fs32\lang1033 2.\cf1\fs22 1 den 10 a kadar say\f1\u305?lar\u305? ekrana yaz\u305? de\u287?eri olarak yazma i\'balemi (\f0\'f6rn 1 girildi\f1\u287?inde ekrana B\u304?R yaz\u305?ls\u305?n - switch yap\u305?s\u305?)\f0 :\f1\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("1 ile 10 aras\u305?nda bir say\u305? girin: ");\par
+        int sayi = Convert.ToInt32(Console.ReadLine());\par
+        switch (sayi)\par
+        \{\par
+            case 1:\par
+                Console.WriteLine("B\u304?R");\par
+                break;\par
+            case 2:\par
+                Console.WriteLine("\u304?K\u304?");\par
+                break;\par
+            case 3:\par
+                Console.WriteLine("\f0\'dc\'c7");\par
+                break;\par
+            case 4:\par
+                Console.WriteLine("D\'d6RT");\par
+                break;\par
+            case 5:\par
+                Console.WriteLine("BE\f1\'aa");\par
+                break;\par
+            case 6:\par
+                Console.WriteLine("ALTI");\par
+                break;\par
+            case 7:\par
+                Console.WriteLine("YED\u304?");\par
+                break;\par
+            case 8:\par
+                Console.WriteLine("SEK\u304?Z");\par
+                break;\par
+            case 9:\par
+                Console.WriteLine("DOKUZ");\par
+                break;\par
+            case 10:\par
+                Console.WriteLine("ON");\par
+                break;\par
+            default:\par
+                Console.WriteLine("L\f0\'fctfen 1 ile 10 aras\f1\u305?nda bir say\u305? girin.");\par
+                break;\par
+        \}\par
+    \}\par
+\}\par
+\cf0\f0\fs32 3.\cf1\fs22 Kullan\f1\u305?c\u305? ad\u305? admin ve \'baifre Admin_32453@ oldu\u287?unda giri\'ba ba\'baar\u305?l\u305? de\u287?ilse ba\'baar\u305?s\u305?z uyar\u305?s\u305? veren c# kodu\f0 :\f1\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Kullan\u305?c\u305? ad\u305?n\u305? girin: ");\par
+        string kullaniciAdi = Console.ReadLine();\par
+        Console.Write("\'aaifreyi girin: ");\par
+        string sifre = Console.ReadLine();\par
+        if (kullaniciAdi == "admin" && sifre == "Admin_32453@")\par
+        \{\par
+            Console.WriteLine("Giri\'ba ba\'baar\u305?l\u305?.");\par
+        \}\par
+        else\par
+        \{\par
+            Console.WriteLine("Giri\'ba ba\'baar\u305?s\u305?z.");\par
+        \}\par
+    \}\par
+\}\par
+\cf0\f0\fs32 4.\cf1\fs22 10-20 20-30 30-40 aras\f1\u305? s\u305?cakl\u305?k durumlar\u305?na g\f0\'f6re ekrana (normal - s\f1\u305?cak - \f0\'e7ok s\f1\u305?cak) uyar\u305?s\u305? veren veren c# kodu (if else if else if else yap\u305?s\u305?)\f0 :\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("S\f1\u305?cakl\u305?k de\u287?erini girin: ");\par
+        int sicaklik = Convert.ToInt32(Console.ReadLine());\par
+        if (sicaklik >= 10 && sicaklik < 20)\par
+        \{\par
+            Console.WriteLine("Durum: Normal");\par
+        \}\par
+        else if (sicaklik >= 20 && sicaklik < 30)\par
+        \{\par
+            Console.WriteLine("Durum: S\u305?cak");\par
+        \}\par
+        else if (sicaklik >= 30 && sicaklik <= 40)\par
+        \{\par
+            Console.WriteLine("Durum: \f0\'c7ok S\f1\u305?cak");\par
+        \}\par
+        else\par
+        \{\par
+            Console.WriteLine("Ge\f0\'e7ersiz s\f1\u305?cakl\u305?k aral\u305?\u287?\u305?.");\par
+        \}\par
+    \}\par
+\}\f0\lang9\par
+\cf0\fs40 NESNEYE Y\lang1033\'d6\lang9 NEL\f1\lang1055\u304?\f0\lang9 K PROGRAMLAMA DERS\f1\lang1055\u304?\f0\fs22\lang9\par
+\fs40                                  3.\lang1033\'d6\lang9 DEV\f1\lang1055\par
+\f0\lang1033                         TAR\f1\lang1055\u304?\f2 H\f0\lang1033 :01.11.2024\lang9\par
+\fs28                 AD : SA\f1\lang1055\u304?\f0\lang9 B  ,   SOYAD: ALSAE\f1\lang1055\u304?\f0\lang9 D ,  \lang1033\'d6\f1\lang1055\u286?\f0\lang1033 .\lang9 NO:241041121\par
+Soru 1 - \cf1\fs22 Foreach D\'f6ng\'fcs\'fc ile Liste Elemanlar\f1\u305?n\u305? Yazd\u305?rma\par
+Bir ArrayList olu\'baturun ve i\f0\'e7erisine birka\'e7 tamsay\f1\u305? ekleyin. foreach d\f0\'f6ng\'fcs\'fc kullanarak listedeki her bir say\f1\u305?y\u305? ekrana yazd\u305?ran bir program yaz\u305?n\u305?z.\par
+D\f0\'f6ng\'fc tamamland\f1\u305?\u287?\u305?nda say\u305?lar\u305?n toplam\u305?n\u305? da ekrana yazd\u305?r\u305?n\u305?z.\par
+\cf2\f0\lang1033 using System;\par
+using System.Collections;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+\f1         ArrayList sayilar = new ArrayList();\par
+        sayilar.Add(10);\par
+        sayilar.Add(20);\par
+        sayilar.Add(30);\par
+        sayilar.Add(40);\par
+        sayilar.Add(50);\par
+        int toplam = 0;         foreach (int sayi in sayilar)\par
+        \{\par
+            Console.WriteLine(sayi);\par
+            toplam += sayi; \par
+        \}\par
+        Console.WriteLine("Say\u305?lar\u305?n toplam\u305?: " + toplam);\par
+    \}\par
+\}\par
+\cf0\fs28 Soru 2 - \cf1\fs22 Haz\u305?r Metod Kullan\u305?m\u305? \par
+Kullan\u305?c\u305?dan bir c\f0\'fcmle girmesini isteyin ve bu c\'fcmledeki kelime say\f1\u305?s\u305?n\u305? hesaplay\u305?p ekrana yazd\u305?ran bir program yaz\u305?n\u305?z. Kelime say\u305?s\u305?n\u305? hesaplamak i\f0\'e7in Split() metodunu kullanabilirsiniz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Bir c\'fcmle girin: ");\par
+        string cumle = Console.ReadLine();\par
+\f1         string[] kelimeler = cumle.Split(new char[] \{ ' ', '.', ',', '!', '?' \}, StringSplitOptions.RemoveEmptyEntries);\par
+        int kelimeSayisi = kelimeler.Length;\par
+        Console.WriteLine("C\f0\'fcmledeki kelime say\f1\u305?s\u305?: " + kelimeSayisi);\par
+    \}\par
+\}\par
+\cf0\fs28 Soru 3 - \cf1\fs22 ArrayList ile Alfabetik S\u305?ralama \par
+Kullan\u305?c\u305?dan 5 adet isim alarak bir ArrayList i\f0\'e7inde saklay\f1\u305?n. Daha sonra bu isimleri alfabetik olarak s\u305?ralayarak ekrana yazd\u305?r\u305?n. (Not: ArrayList.Sort() metodunu kullanabilirsiniz.)\par
+\cf2 using System;\par
+using System.Collections;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        ArrayList isimler = new ArrayList(); \par
+        for (int i = 0; i < 5; i++)\par
+        \{\par
+            Console.Write("Bir isim girin: ");\par
+            string isim = Console.ReadLine();\par
+        \}\par
+        isimler.Sort();\par
+        Console.WriteLine("\\nAlfabetik s\u305?raya g\f0\'f6re isimler:");\par
+        foreach (string isim in isimler)\par
+        \{\par
+            Console.WriteLine(isim);\par
+        \}\par
+    \}\par
+\}\par
+\cf0\fs28 Soru 4 - \cf1\fs22 For D\'f6ng\'fcs\'fc ile Fibonacci Serisi \par
+Kullan\f1\u305?c\u305?dan bir say\u305? girmesini isteyin. Bu say\u305? kadar Fibonacci serisindeki say\u305?lar\u305? hesaplay\u305?p ekrana yazd\u305?ran bir program yaz\u305?n\u305?z. for d\f0\'f6ng\'fcs\'fc kullanarak seriyi olu\f1\'baturun.\par
+\f0\'d6rnek: E\f1\u287?er kullan\u305?c\u305? 5 girerse, ekranda "0 1 1 2 3" yazmal\u305?d\u305?r.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        Console.Write("Fibonacci serisi i\f0\'e7in bir say\f1\u305? girin: ");\par
+        int n = Convert.ToInt32(Console.ReadLine());\par
+        int a = 0, b = 1;\par
+        Console.Write("Fibonacci serisi: ");\par
+        for (int i = 0; i < n; i++)\par
+        \{\par
+            if (i == 0)\par
+            \{\par
+                Console.Write(a); \par
+            \}\par
+            else if (i == 1)\par
+            \{\par
+                Console.Write(" " + b); \par
+            \}\par
+            else\par
+            \{\par
+                int c = a + b; \par
+                Console.Write(" " + c);\par
+                a = b; \f0\par
+                b = c; \par
+            \}\par
+        \}\par
+    \}\par
+\}\par
+\cf0\fs28 Soru 5 - \cf1\fs22 While D\'f6ng\'fcs\'fc ile Tahmin Oyunu \par
+Kullan\f1\u305?c\u305?dan bir say\u305? tahmin etmesini isteyen bir program yaz\u305?n\u305?z. Program, do\u287?ru tahmin yap\u305?lana kadar kullan\u305?c\u305?dan yeni tahminler almaya devam etmelidir. Do\u287?ru tahmin yap\u305?ld\u305?\u287?\u305?nda ekrana bir tebrik mesaj\u305? yazd\u305?r\u305?lmal\u305?d\u305?r.\par
+Not: Sabit bir say\u305? belirleyebilir veya Random s\u305?n\u305?f\u305? ile rastgele bir say\u305? olu\'baturabilirsiniz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        int dogruSayi = 7; \par
+        int tahmin = -1;   \par
+        Console.WriteLine("Tahmin oyunu! 1 ile 10 aras\u305?nda bir say\u305? tahmin edin.");\par
+\f0         while (tahmin != dogruSayi)\par
+        \{\par
+            Console.Write("Tahmininizi girin: ");\par
+            tahmin = Convert.ToInt32(Console.ReadLine());\par
+            if (tahmin < dogruSayi)\par
+            \{\par
+                Console.WriteLine("Tahmininiz \'e7ok d\'fc\f1\'ba\f0\'fck. Tekrar deneyin.");\par
+            \}\par
+            else if (tahmin > dogruSayi)\par
+            \{\par
+                Console.WriteLine("Tahmininiz \'e7ok y\'fcksek. Tekrar deneyin.");\par
+            \}\par
+            else\par
+            \{\par
+                Console.WriteLine("Tebrikler! Do\f1\u287?ru tahmin ettiniz.");\par
+            \}\par
+        \}\par
+    \}\par
+\}\par
+\cf0\fs28 Soru 6 - \cf1\fs22 Do While D\f0\'f6ng\'fcs\'fc ile Basit Hesap Makinesi\par
+Kullan\f1\u305?c\u305?dan i\'balem t\f0\'fcr\'fcn\'fc (+, -, *, /) ve iki say\f1\u305? alarak i\'balemi ger\f0\'e7ekle\f1\'batiren bir program yaz\u305?n\u305?z. Kullan\u305?c\u305? "\f0\'e7\f1\u305?k\u305?\'ba" yazana kadar i\'balemleri tekrarlayan bir do while d\f0\'f6ng\'fcs\'fc kurunuz.\par
+Ekstra: B\'f6lme i\f1\'balemi s\u305?ras\u305?nda s\u305?f\u305?ra b\f0\'f6lme hatas\f1\u305?n\u305? kontrol ediniz.\par
+\cf2 using System;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        string islem; \par
+\f0         do\par
+        \{\par
+            Console.WriteLine("Hesap Makinesi");\par
+            Console.Write("Yapmak istedi\f1\u287?iniz i\'balemi girin (+, -, *, /) veya '\f0\'e7\f1\u305?k\u305?\'ba' yaz\u305?n: ");\par
+            islem = Console.ReadLine();\par
+            if (islem.ToLower() == "\f0\'e7\f1\u305?k\u305?\'ba")\par
+            \{\par
+                break; \par
+            \}\par
+            Console.Write("Birinci say\u305?y\u305? girin: ");\par
+            double sayi1 = Convert.ToDouble(Console.ReadLine());\par
+            Console.Write("\u304?kinci say\u305?y\u305? girin: ");\par
+            double sayi2 = Convert.ToDouble(Console.ReadLine());\par
+            double sonuc;\par
+            switch (islem)\par
+            \{\par
+                case "+":\par
+                    sonuc = sayi1 + sayi2;\par
+                    Console.WriteLine("Sonu\f0\'e7: " + sonuc);\par
+                    break;\par
+                case "-":\par
+                    sonuc = sayi1 - sayi2;\par
+                    Console.WriteLine("Sonu\'e7: " + sonuc);\par
+                    break;\par
+                case "*":\par
+                    sonuc = sayi1 * sayi2;\par
+                    Console.WriteLine("Sonu\'e7: " + sonuc);\par
+                    break;\par
+                case "/":\par
+                    if (sayi2 == 0)\par
+                    \{\par
+                        Console.WriteLine("Hata: S\f1\u305?f\u305?ra b\f0\'f6lme i\f1\'balemi yap\u305?lamaz!");\par
+                    \}\par
+                    else\par
+                    \{\par
+                        sonuc = sayi1 / sayi2;\par
+                        Console.WriteLine("Sonu\f0\'e7: " + sonuc);\par
+                    \}\par
+                    break;\par
+                default:\par
+                    Console.WriteLine("Ge\'e7ersiz i\f1\'balem. L\f0\'fctfen +, -, *, / kullan\f1\u305?n.");\par
+                    break;\par
+            \}\par
+            Console.WriteLine(); \par
+        \}\par
+        while (true); \par
+\f0     \}\par
+\}\par
+\cf0\fs28 Soru 7 - \cf1\fs22 For ve While D\'f6ng\'fcs\'fc ile Say\f1\u305? Toplama Oyunu \par
+Kullan\u305?c\u305?dan pozitif tam say\u305?lar girmesini isteyen bir program yaz\u305?n\u305?z. Kullan\u305?c\u305? "0" girdi\u287?inde giri\'bai sonland\u305?r\u305?n ve girilen pozitif say\u305?lar\u305?n toplam\u305?n\u305? bir while d\f0\'f6ng\'fcs\'fc kullanarak hesaplay\f1\u305?n.\par
+Toplam\u305? bulduktan sonra t\f0\'fcm pozitif say\f1\u305?lar\u305? tek tek ekrana yazd\u305?rmak i\f0\'e7in bir for d\'f6ng\'fcs\'fc kullan\f1\u305?n\u305?z.\par
+\cf2 using System;\par
+using System.Collections.Generic;\par
+class Program\par
+\{\par
+    static void Main()\par
+    \{\par
+        List<int> sayilar = new List<int>(); \f0\par
+        int toplam = 0; \f1\par
+        Console.WriteLine("Pozitif tam say\u305?lar girin (\f0\'c7\f1\u305?kmak i\f0\'e7in 0 girin):");\par
+\f1         while (true)\par
+        \{\par
+            Console.Write("Say\u305? girin: ");\par
+            int sayi = Convert.ToInt32(Console.ReadLine());\par
+            if (sayi == 0) \par
+            \{\par
+                break;\par
+            \}\par
+            else if (sayi > 0) \f0\par
+            \{\par
+                sayilar.Add(sayi); \f1\par
+                toplam += sayi; \par
+            \}\par
+            else\par
+            \{\par
+                Console.WriteLine("L\f0\'fctfen pozitif bir tam say\f1\u305? girin."); \par
+            \}\par
+        \}\par
+        Console.WriteLine("Girilen pozitif say\u305?lar\u305?n toplam\u305?: " + toplam);\par
+        Console.WriteLine("Girilen pozitif say\u305?lar:");\par
+        for (int i = 0; i < sayilar.Count; i++)\par
+        \{\par
+            Console.WriteLine(sayilar[i]);\par
+        \}\par
+    \}\par
+\}\par
+\cf0\fs28\par
+ \f0\lang9\par
+\par
+\fs22\par
+\cf2\f1\lang1033\par
+\f0\lang9\par
+}
+ 
